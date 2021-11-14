@@ -37,11 +37,11 @@ body {
     font-size: 18px;
 }
 
-.middle-section, .learn-section, .intro-section{
+.middle-section, .learn-section {
     background-color: white;
 }
 
-.middle-section, .learn-section, .intro-section{
+.middle-section, .learn-section {
     position: relative;
 }
 
