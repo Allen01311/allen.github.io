@@ -46,9 +46,8 @@ body {
 }
 
 .social {
-    position: absolute;
+    position: flex;
     width: 100%;
-    top: -50%;
 }
 
 .bottom-section{
