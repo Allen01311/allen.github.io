@@ -51,6 +51,7 @@ body {
 }
 
 .learn-section, .intro-section{
+    font-weight: bold;
     padding: 40px;
     display: flex;
     justify-content: space-evenly;
