@@ -49,9 +49,3 @@ body {
     position: flex;
     width: 100%;
 }
-
-.learn-section, .intro-section{
-    padding: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
