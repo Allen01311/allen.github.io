@@ -49,3 +49,9 @@ body {
     position: absolute;
     width: 100%;
 }
+
+.bottom-section{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
