@@ -1,9 +1,6 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	</head>
-
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<title>冠華的web</title>
 
 	<h1>
@@ -14,6 +11,19 @@
 	}
 	</script>
 
+	<body>
+		<nav>
+			<label class="logo">
+				冠華的個人網站
+			</label>
+			<ul>
+				<li><a class="bio" href="bio.html">自傳</a></li>
+				<li><a href="graduation.html">畢業專題</a></li>
+				<li><a href="activity.html">大學活動參與</a></li>
+				<li><a href="learn.html">學習經歷</a></li>
+			</ul>
+		</nav>
+	</body>
 	<body onload="ShowTime()">
 		<div id="showbox"></div>
 
@@ -53,7 +63,9 @@
 				<div>
 					畢業專題宣傳片:
 					<a href="https://www.youtube.com/watch?v=8dhvet1gn7A" target="_blank"><i class="fa fa-youtube fa-fw"></i>Paclub 盒群</a>
-				</div>
+				</div><br>
+
+
 				<h6>常見程式語言簡介
 					<select onChange="location = this.options[this.selectedIndex].value;">
 					<option value="#">請選擇</option>

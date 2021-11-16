@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
     font-family: Roboto;
     display: flex;
@@ -6,6 +12,45 @@ body {
     background-image: url("../images/background.jpg");
     background-size: cover;
 }
+
+nav{
+    background: lightblue;
+    height: 100px;
+}
+
+label.logo{
+    color: black;
+    font-size: 60px;
+    line-height: 100px;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: black;
+    transition: .5s;
+}
+
+
 
 .main-content {
     text-align: center;
@@ -33,9 +78,6 @@ body {
 
 .middle-section, .learn-section {
     background-color: white;
-}
-
-.middle-section, .learn-section {
     position: relative;
 }
 
