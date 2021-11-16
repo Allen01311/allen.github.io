@@ -20,15 +20,15 @@ nav{
 
 label.logo{
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 100px;
-    padding: 0 0px;
+    padding: 0 0;
     font-weight: bold;
 }
 
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 nav ul li {
