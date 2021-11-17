@@ -82,7 +82,7 @@ a:hover{
     font-size: 18px;
 }
 
-.middle-section, .learn-section {
+.middle-section{
     background-color: lightblue;
     position: relative;
 }

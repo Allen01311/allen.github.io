@@ -25,10 +25,12 @@ body {
     font-size: 50px;
 }
 
-.learn-section {
-    text-align:start;  
+.learn-section {  
+    background-color: lightblue;
+    position: relative;
+    text-align:center;  
     font-size: 30px;
-    border: white;
+    font-weight: bold;
 }
 
 .Back{
