@@ -15,7 +15,7 @@ body {
 }
 
 .learn-content{
-    padding:10px 500px 500px 500px;
+    padding:initial;
     color: black;
 }
 
@@ -41,4 +41,9 @@ body {
     border-radius: 30px ;
     background: black;
     color: white;
+}
+
+a:hover{
+    background: gray;
+    transition: .5s;
 }

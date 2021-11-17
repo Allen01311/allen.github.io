@@ -15,16 +15,19 @@ body {
 
 
 nav{
+    padding: 0 5px;
     background: lightblue;
     box-shadow: 10px 5px 5px gray;
     height: 100px;
 }
 
-label.logo{
+label.web{
+    border: solid;
+    border-radius: 20px;
     color: black;
-    font-size: 50px;
-    line-height: 100px;
-    padding: 0 0;
+    font-size: 40px;
+    line-height: 110px;
+    padding: 5px 10px;
     font-weight: bold;
 }
 
