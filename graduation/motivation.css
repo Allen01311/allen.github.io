@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    background-size: cover;
+}
+
+.motivation-content{
+    padding:10px 500px 500px 500px;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+}
+
+.motivation-section {
+    text-align:start;  
+    font-size: 24px;
+    border: white;
+}
+
+.Back{
+    display: block;
+    text-align: center;
+    border: 0;
+    font-size: 25px;
+    line-height: 1;
+    padding: 15px 30px;
+    border-radius: 30px ;
+    background: black;
+    color: white;
+}
