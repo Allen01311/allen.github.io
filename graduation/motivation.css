@@ -15,7 +15,7 @@ body {
 }
 
 .motivation-content{
-    padding:10px 500px 500px 500px;
+    padding:initial;
     color: black;
 }
 
